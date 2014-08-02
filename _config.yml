@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: CKAN
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 relative_permalinks: false
