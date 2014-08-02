@@ -16,13 +16,15 @@ breadcrumbs:
 
 <article class="span12">
 
-    <p>This is a new home page for extensions, where we aim to bring the community of CKAN developers under one roof.</p>
+    <p>This is a new home page for extensions, where we aim to bring the community of CKAN developers under one roof. Right now we are indexing all projects in GitHub which can be automatically determined to be CKAN extensions. <a href="http://okfnlabs.org/">Contact us</a> if your project should (not) appear in this list, or if you have any suggestions.</p>
 
     <div id="browse-extensions">
 
         <input class="search" placeholder="Search" />
-        <button class="sort" data-sort="name">
-          Sort by name
+        <button class="sort" data-sort="updated_at">
+          Sort by update
+        </button><button class="sort" data-sort="name">
+          by name
         </button>
       
         <ul class="list"></ul>
@@ -40,3 +42,4 @@ breadcrumbs:
 
 <script src="/assets/data/extensions-gh.json"></script>
 <script src="/assets/js/extensions/extensions.js"></script>
+<link rel="stylesheet" href="/assets/css/extensions.css" type="text/css" media="all" />

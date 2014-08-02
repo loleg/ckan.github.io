@@ -1,8 +1,10 @@
 var options = {
-  valueNames: [ 'name', 'author' ],
+  valueNames: [ 'name', 'description', 'author', 'url' ],
+  searched: true,
   item: '<li>' +
-  	'<h3 class="name"></h3>' +
+  	'<a class="url"><h3 class="name"></h3></a>' +
   	'<p class="author"></p>' +
+  	'<p class="description"></p>' +
   	'</li>'
 };
 
